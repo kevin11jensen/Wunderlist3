@@ -27,6 +27,7 @@ const Landing = styled.div `
     @media ${device.mobileL} {
         font-size: 3rem;
         top: 0;
+        font-weight: 900;
     }
     .landing-page {
         display: flex;
@@ -48,10 +49,11 @@ const Landing = styled.div `
             font-weight: 600;
             transition-duration: 1s;
             @media ${device.tablet} {
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
             @media ${device.mobileL} {
                 margin-bottom: 50%;
+                font-weight: 900;
             }
             &:hover {
                 background-color: #234099;
