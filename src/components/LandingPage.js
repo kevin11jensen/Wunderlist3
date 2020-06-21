@@ -18,7 +18,7 @@ const Landing = styled.div `
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-size: 7rem;
+    font-size: 8rem;
     color: #234099;
     font-family: 'Balsamiq Sans', cursive;
     @media ${device.tablet} {
@@ -41,19 +41,19 @@ const Landing = styled.div `
             font-family: 'Balsamiq Sans', cursive;
             background: none;
             color: #234099;
-            font-size: 3rem;
+            font-size: 3.2rem;
             text-decoration: none;
             border: 2px solid #234099;
             padding: 1% 3%;
             margin-top: 3%;
-            font-weight: 600;
+            font-weight: 900;
             transition-duration: 1s;
             @media ${device.tablet} {
                 font-size: 2.5rem;
             }
             @media ${device.mobileL} {
                 margin-bottom: 50%;
-                font-weight: 900;
+                
                 background-color: #234099;
                 color: white;
             }
