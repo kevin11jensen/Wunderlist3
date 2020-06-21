@@ -19,18 +19,19 @@ export default function Navbar() {
     );
 }
 const Nav = styled.nav `
-    
+    font-family: 'Balsamiq Sans', cursive;
 .navbar {
     font-size: 3rem;
-    background-color: dodgerblue;
+    background-color: #234099;
     padding: 2%;
     display: flex;
     justify-content: space-between;
     li {
         list-style: none;
-        color: black;
+        color: white;
+        transition-duration: .5s;
         &:hover {
-            color: white;
+            color: black;
         }
     }
 }
