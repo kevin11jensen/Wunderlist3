@@ -25,7 +25,7 @@ const Landing = styled.div `
         font-size: 4rem;
     }
     @media ${device.mobileL} {
-        font-size: 3.5rem;
+        font-size: 3.2rem;
         top: 0;
         font-weight: 900;
     }
