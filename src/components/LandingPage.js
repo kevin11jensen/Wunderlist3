@@ -24,12 +24,18 @@ const Landing = styled.div `
     @media ${device.tablet} {
         font-size: 4rem;
     }
+    @media ${device.mobileL} {
+        font-size: 3rem;
+        top: 0;
+    }
     .landing-page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 90vh;
+    
+        
         button {
             font-family: 'Balsamiq Sans', cursive;
             background: none;
@@ -43,6 +49,9 @@ const Landing = styled.div `
             transition-duration: 1s;
             @media ${device.tablet} {
                 font-size: 2rem;
+            }
+            @media ${device.mobileL} {
+                margin-bottom: 99%;
             }
             &:hover {
                 background-color: #234099;
