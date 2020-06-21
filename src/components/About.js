@@ -18,11 +18,11 @@ const AboutUs = styled.div `
         font-size: 7rem;
         font-family: 'Balsamiq Sans', cursive;
         display: flex;
-        justify-content: center;
+        
         align-items: center;
         flex-direction: column;
         margin: 2%;
-
+        height: 90vh;
         @media ${device.tablet} {
             font-size: 4rem;
         }
@@ -36,6 +36,7 @@ const AboutUs = styled.div `
         p {
             font-size: 2rem;
             line-height: 2.5rem;
+            margin: 0 2%;
             @media ${device.mobileL} {
                 font-size: 1.6rem;
             }
