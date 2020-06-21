@@ -53,7 +53,7 @@ const Landing = styled.div `
             }
             @media ${device.mobileL} {
                 margin-bottom: 50%;
-                
+                margin-top: 6%;
                 background-color: #234099;
                 color: white;
             }
