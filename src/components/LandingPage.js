@@ -18,7 +18,7 @@ const Landing = styled.div `
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-size: 8rem;
+    font-size: 7.5rem;
     color: #234099;
     font-family: 'Balsamiq Sans', cursive;
     @media ${device.tablet} {
