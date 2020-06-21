@@ -25,7 +25,7 @@ const Landing = styled.div `
         font-size: 4rem;
     }
     @media ${device.mobileL} {
-        font-size: 3rem;
+        font-size: 3.5rem;
         top: 0;
         font-weight: 900;
     }
@@ -54,6 +54,8 @@ const Landing = styled.div `
             @media ${device.mobileL} {
                 margin-bottom: 50%;
                 font-weight: 900;
+                background-color: #234099;
+                color: white;
             }
             &:hover {
                 background-color: #234099;
