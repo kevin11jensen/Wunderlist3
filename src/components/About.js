@@ -22,9 +22,9 @@ const AboutUs = styled.div `
         align-items: center;
         flex-direction: column;
         
-        height: 90vh;
+        
         @media ${device.tablet} {
-            font-size: 4rem;
+            font-size: 2.9rem;
         }
         @media ${device.mobileL} {
             font-size: 2.4rem;
@@ -36,7 +36,7 @@ const AboutUs = styled.div `
         p {
             font-size: 2rem;
             line-height: 2.5rem;
-            margin: 0 2%;
+            margin: 0 2% 2% 3%;
             @media ${device.mobileL} {
                 font-size: 1.6rem;
             }
