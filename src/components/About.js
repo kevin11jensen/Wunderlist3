@@ -15,7 +15,7 @@ export default function About() {
 const AboutUs = styled.div `
 
     .about {
-        font-size: 7rem;
+        font-size: 5rem;
         font-family: 'Balsamiq Sans', cursive;
         display: flex;
         
