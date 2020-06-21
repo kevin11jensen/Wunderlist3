@@ -19,4 +19,8 @@ const FootNote = styled.footer `
     justify-content: center;
     align-items: center;
     padding: 2%;
+    .footer {
+        bottom: 0;
+    }
+    
 `
