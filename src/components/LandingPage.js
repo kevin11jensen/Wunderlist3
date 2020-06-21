@@ -38,6 +38,7 @@ const Landing = styled.div `
             text-decoration: none;
             border: 2px solid #234099;
             padding: 1% 3%;
+            margin-top: 3%;
             font-weight: 600;
             transition-duration: 1s;
             @media ${device.tablet} {
