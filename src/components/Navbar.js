@@ -21,23 +21,23 @@ export default function Navbar() {
 }
 const Nav = styled.nav `
     font-family: 'Balsamiq Sans', cursive;
-.navbar {
-    font-size: 3rem;
-    background-color: #234099;
-    padding: 2%;
-    display: flex;
-    justify-content: space-between;
-    @media ${device.tablet} {
-        font-size: 1.6rem;
-    }
-    li {
-        list-style: none;
-        color: white;
-        transition-duration: .5s;
-        &:hover {
-            color: black;
+    .navbar {
+        font-size: 3rem;
+        background-color: #234099;
+        padding: 2%;
+        display: flex;
+        justify-content: space-between;
+        @media ${device.tablet} {
+            font-size: 1.6rem;
+        }
+        li {
+            list-style: none;
+            color: white;
+            transition-duration: .5s;
+            &:hover {
+                color: black;
+            }
         }
     }
-}
     
 `
