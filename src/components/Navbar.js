@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { device } from './device';
 
 export default function Navbar() {
     return (
@@ -26,6 +27,9 @@ const Nav = styled.nav `
     padding: 2%;
     display: flex;
     justify-content: space-between;
+    @media ${device.tablet} {
+        font-size: 1.6rem;
+    }
     li {
         list-style: none;
         color: white;

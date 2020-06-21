@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeroImg from '../images/wunderlistHero.jpg';
+import { device } from './device';
 
 export default function LandingPage() {
     return (
@@ -20,7 +21,9 @@ const Landing = styled.div `
     font-size: 7rem;
     color: #234099;
     font-family: 'Balsamiq Sans', cursive;
-    
+    @media ${device.tablet} {
+        font-size: 4rem;
+    }
     .landing-page {
         display: flex;
         flex-direction: column;
@@ -37,6 +40,9 @@ const Landing = styled.div `
             padding: 1% 3%;
             font-weight: 600;
             transition-duration: 1s;
+            @media ${device.tablet} {
+                font-size: 2rem;
+            }
             &:hover {
                 background-color: #234099;
                 color: white;
