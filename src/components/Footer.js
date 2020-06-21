@@ -15,10 +15,12 @@ export default function Footer() {
 const FootNote = styled.footer `
     font-size: 1.2rem;
     font-family: 'Balsamiq Sans', cursive;
-    
-    padding: 2%;
     color: #234099;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .footer {
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 `
