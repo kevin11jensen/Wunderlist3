@@ -35,6 +35,7 @@ const AboutUs = styled.div `
         }
         p {
             font-size: 2rem;
+            line-height: 2.5rem;
             @media ${device.mobileL} {
                 font-size: 1.6rem;
             }
