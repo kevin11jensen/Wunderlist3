@@ -18,10 +18,7 @@ const FootNote = styled.footer `
     
     padding: 2%;
     color: #234099;
-    .footer {
-        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `

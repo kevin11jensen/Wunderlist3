@@ -24,7 +24,7 @@ const Nav = styled.nav `
     .navbar {
         font-size: 3rem;
         background-color: #234099;
-        padding: 2%;
+        padding: 2% 5%;
         display: flex;
         justify-content: space-between;
         @media ${device.tablet} {
