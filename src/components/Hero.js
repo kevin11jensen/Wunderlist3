@@ -5,11 +5,6 @@ import { device } from './device';
 
 export default function Hero() {
 
-    function signUp() {
-        window.open('https://wunderlist4.netlify.app/');
-    }
-    
-
     return (
         <HeroDiv>
             <div className = "hero-content" >
