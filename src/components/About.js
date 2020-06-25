@@ -32,6 +32,7 @@ const AboutUs = styled.div `
         
         @media ${device.tablet} {
             font-size: 2.9rem;
+            margin-bottom: 11%;
         }
         @media ${device.mobileL} {
             font-size: 2.4rem;

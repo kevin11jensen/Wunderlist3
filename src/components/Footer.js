@@ -23,9 +23,11 @@ const FootNote = styled.footer `
         display: flex;
         justify-content: center;
         align-items: flex-end;
+
         p {
             @media ${device.tablet} {
                 margin-top: 11%;
+                padding: 6%;
             }
             
         }
