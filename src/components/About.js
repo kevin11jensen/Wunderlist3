@@ -19,7 +19,7 @@ export default function About() {
     );
 }
 const AboutUs = styled.div `
-
+    
     .about {
         font-size: 5rem;
         font-family: 'Balsamiq Sans', cursive;
@@ -29,6 +29,7 @@ const AboutUs = styled.div `
         flex-direction: column;
         
         height: 90vh;
+        
         @media ${device.tablet} {
             font-size: 2.9rem;
         }
@@ -42,7 +43,7 @@ const AboutUs = styled.div `
         p {
             font-size: 2rem;
             line-height: 2.5rem;
-            margin: 0 2% 2% 5%;
+            margin: 0 2% 11% 5%;
             @media ${device.mobileL} {
                 font-size: 1.6rem;
             }

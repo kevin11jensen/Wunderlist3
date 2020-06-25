@@ -17,18 +17,17 @@ const FootNote = styled.footer `
     font-size: 1.2rem;
     font-family: 'Balsamiq Sans', cursive;
     color: #234099;
-    
+    margin-top: 6%;
     .footer {
-        @media ${device.tablet} {
-            padding: 9% 2% 6% 2%;
-        }
         
         display: flex;
         justify-content: center;
         align-items: flex-end;
         p {
+            @media ${device.tablet} {
+                margin-top: 11%;
+            }
             
-            margin: 3% 0 0 0;
         }
     }
     
