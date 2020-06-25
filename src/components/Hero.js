@@ -62,6 +62,7 @@ const HeroDiv = styled.div `
                 background-color: #234099;
                 color: white;
             }
+            
         }
     }
 `
