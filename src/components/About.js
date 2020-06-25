@@ -44,9 +44,10 @@ const AboutUs = styled.div `
         p {
             font-size: 2rem;
             line-height: 2.5rem;
-            margin: 0 2% 11% 5%;
+            margin: 0 9% 11% 9%;
             @media ${device.mobileL} {
                 font-size: 1.6rem;
+                margin: 0 3% 11% 6%;
             }
         }
     }

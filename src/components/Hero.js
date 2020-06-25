@@ -4,11 +4,18 @@ import HeroImg from '../images/wunderlistHero.jpg';
 import { device } from './device';
 
 export default function Hero() {
+
+    function signUp() {
+        window.open('https://wunderlist4.netlify.app/');
+    }
+    
+
     return (
         <HeroDiv>
             <div className = "hero-content" >
                 <h1>WunderList 3</h1>
-                <button>Download</button>
+                <form action = 'https://wunderlist4.netlify.app/'>
+                <button type = 'submit'>Sign Up</button></form>
             </div>
         </HeroDiv>
     );
@@ -37,32 +44,39 @@ const HeroDiv = styled.div `
         align-items: center;
         height: 90vh;
     
-        
-        button {
-            font-family: 'Balsamiq Sans', cursive;
-            background: none;
-            color: #234099;
-            font-size: 3.2rem;
-            text-decoration: none;
-            border: 2px solid #234099;
-            padding: 1% 3%;
-            margin-top: 3%;
-            font-weight: 900;
-            transition-duration: 1s;
-            @media ${device.tablet} {
-                font-size: 2.5rem;
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 99%;
+            margin: 3%;
+            button {
+                font-family: 'Balsamiq Sans', cursive;
+                background: none;
+                color: #234099;
+                font-size: 3.2rem;
+                text-decoration: none;
+                border: 2px solid #234099;
+                padding: 1% 3%;
+                font-weight: 900;
+                transition-duration: 1s;
+                @media ${device.tablet} {
+                    font-size: 2.5rem;
+                }
+                @media ${device.mobileL} {
+                    margin-bottom: 50%;
+                    margin-top: 6%;
+                    background-color: #234099;
+                    color: white;
+                }
+                &:hover {
+                    background-color: #234099;
+                    color: white;
+                }
+                
             }
-            @media ${device.mobileL} {
-                margin-bottom: 50%;
-                margin-top: 6%;
-                background-color: #234099;
-                color: white;
-            }
-            &:hover {
-                background-color: #234099;
-                color: white;
-            }
-            
         }
+        
     }
 `

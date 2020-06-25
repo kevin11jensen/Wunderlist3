@@ -38,25 +38,27 @@ const Middle = styled.section `
     align-items: center;
     img {
         width: 45%;
-        margin: 2%;
+        
         box-shadow: 1rem 1rem 1rem #234099;
         @media ${device.tablet} {
             width: 99%;
+            margin-bottom: 3%;
         }
     }
     .wunderlist-2, .wunderlist-4 {
-
+        
         @media ${device.tablet} {
             display: flex;
             flex-direction: column-reverse;
         }
     }
+    
     div {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        width: 75%;
+        width: 77%;
         margin: 3%;
         @media ${device.tablet} {
             flex-direction: column;
