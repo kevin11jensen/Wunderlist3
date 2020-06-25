@@ -28,7 +28,7 @@ const AboutUs = styled.div `
         align-items: center;
         flex-direction: column;
         
-        
+        height: 90vh;
         @media ${device.tablet} {
             font-size: 2.9rem;
         }
