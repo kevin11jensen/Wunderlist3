@@ -60,6 +60,7 @@ const Middle = styled.section `
         margin: 3%;
         @media ${device.tablet} {
             flex-direction: column;
+            width: 90%;
         }
         p {
             font-size: 2rem;

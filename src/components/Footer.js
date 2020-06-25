@@ -19,12 +19,12 @@ const FootNote = styled.footer `
     
     .footer {
         
-        
+        padding: 9% 2% 6% 2%;
         display: flex;
         justify-content: center;
         align-items: flex-end;
         p {
-            padding: 3% 2% 0 2%;
+            
             margin: 3% 0 0 0;
         }
     }
