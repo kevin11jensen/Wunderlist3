@@ -29,7 +29,7 @@ const AboutUs = styled.div `
         flex-direction: column;
         
         height: 90vh;
-        
+        margin-bottom: 6%;
         @media ${device.tablet} {
             font-size: 2.9rem;
             margin-bottom: 11%;
