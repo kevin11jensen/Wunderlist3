@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { device } from './device';
 
 export default function Footer() {
 
@@ -18,8 +19,10 @@ const FootNote = styled.footer `
     color: #234099;
     
     .footer {
+        @media ${device.tablet} {
+            padding: 9% 2% 6% 2%;
+        }
         
-        padding: 9% 2% 6% 2%;
         display: flex;
         justify-content: center;
         align-items: flex-end;
