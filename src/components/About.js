@@ -1,15 +1,21 @@
 import React from 'react';
 import { device } from './device';
 import styled from 'styled-components';
+import NavBar from './Navbar';
+import Footer from './Footer';
 
 export default function About() {
     return (
+        
         <AboutUs>
+            <NavBar />
             <div className = "about" >
                 <h1>About WunderList 3</h1>
                 <p>Wunderlist 3 takes your traditional to-do list app and automates it. It not only allows you to write your to-do, work, grocery, trip and household lists, but allows you to set up recurring to do lists by date and time. (Think recurring events on google calendar + to-do list app).<br/><br/>No matter how much is on your plate, Wunderlist 3 makes it super easy to remember all the little recurring to-dos and surprise to-dos that pop up unexpectedly.</p>
             </div>
+            <Footer />
         </AboutUs>
+        
     );
 }
 const AboutUs = styled.div `
