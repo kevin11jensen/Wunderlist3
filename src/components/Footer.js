@@ -26,7 +26,7 @@ const FootNote = styled.footer `
 
         p {
             @media ${device.tablet} {
-                margin-top: 11%;
+                margin-top: 16%;
                 padding: 6%;
             }
             

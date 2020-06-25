@@ -47,7 +47,7 @@ const AboutUs = styled.div `
             margin: 0 9% 11% 9%;
             @media ${device.mobileL} {
                 font-size: 1.6rem;
-                margin: 0 3% 11% 6%;
+                margin: 0 3% 16% 6%;
             }
         }
     }
