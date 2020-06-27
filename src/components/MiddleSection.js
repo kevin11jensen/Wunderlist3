@@ -76,8 +76,9 @@ const Middle = styled.section `
             font-size: 2rem;
             width: 75%;
             margin: 3%;
+            text-align: center;
             @media ${device.tablet} {
-                text-align: center;
+                
                 font-size: 1.6rem;
                 margin-top: 3%;
             }
