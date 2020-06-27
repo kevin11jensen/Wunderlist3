@@ -70,12 +70,12 @@ const Middle = styled.section `
             font-size: 2rem;
             width: 45%;
             
-            text-align: left;
+            text-align: center;
             @media ${device.tablet} {
                 width: 95%;
                 font-size: 1.6rem;
                 margin-top: 3%;
-                text-align: center;
+                
             }
         }
     }
