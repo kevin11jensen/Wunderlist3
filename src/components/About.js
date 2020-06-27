@@ -32,7 +32,7 @@ const AboutUs = styled.div `
         margin-bottom: 6%;
         @media ${device.tablet} {
             font-size: 2.9rem;
-            margin-bottom: 11%;
+            
         }
         @media ${device.mobileL} {
             font-size: 2.3rem;
@@ -40,8 +40,9 @@ const AboutUs = styled.div `
             
         }
         h1 {
-            margin 4% 2% 2% 2%;
+            margin 4% 2% 0 2%;
             color: #234099;
+            text-align: left;
         }
         p {
             font-size: 2rem;
@@ -49,7 +50,7 @@ const AboutUs = styled.div `
             margin: 0 9% 11% 9%;
             @media ${device.mobileL} {
                 font-size: 1.6rem;
-                margin: 0 3% 16% 6%;
+                margin: 0 3% 3% 6%;
             }
         }
     }
