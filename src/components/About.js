@@ -35,7 +35,9 @@ const AboutUs = styled.div `
             margin-bottom: 11%;
         }
         @media ${device.mobileL} {
-            font-size: 2.4rem;
+            font-size: 2.3rem;
+            text-align: left;
+            
         }
         h1 {
             margin 4% 2% 2% 2%;

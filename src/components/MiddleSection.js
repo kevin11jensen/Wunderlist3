@@ -36,28 +36,13 @@ const Middle = styled.section `
     display: flex;
     flex-direction: column;
     align-items: center;
-    img {
-        width: 65%;
-        
-        box-shadow: 1rem 1rem 1rem #234099;
-        @media ${device.tablet} {
-            width: 99%;
-            margin-bottom: 3%;
-        }
-    }
+    
     .wunderlist-2, .wunderlist-4 {
-        display: flex;
-        justify-content: space-around;
-        margin-right: 0;
+        
         @media ${device.tablet} {
             display: flex;
             flex-direction: column-reverse;
         }
-    }
-    .wunderlist-1, .wunderlist-3 {
-        display: flex;
-        justify-content: space-around;
-        margin-left: 11%;
     }
     
     div {
@@ -72,13 +57,22 @@ const Middle = styled.section `
             width: 90%;
             margin: 3% 3% 6% 3%;
         }
+        img {
+            width: 45%;
+            
+            box-shadow: 1rem 1rem 1rem #234099;
+            @media ${device.tablet} {
+                width: 99%;
+                margin-bottom: 3%;
+            }
+        }
         p {
             font-size: 2rem;
-            width: 75%;
-            margin: 3%;
+            width: 45%;
+            
             text-align: center;
             @media ${device.tablet} {
-                
+                width: 95%;
                 font-size: 1.6rem;
                 margin-top: 3%;
             }

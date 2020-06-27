@@ -28,7 +28,7 @@ const HeroDiv = styled.div `
         font-size: 4rem;
     }
     @media ${device.mobileL} {
-        font-size: 3.2rem;
+        font-size: 3.3rem;
         top: 0;
         font-weight: 900;
     }

@@ -27,6 +27,7 @@ const Nav = styled.nav `
         padding: 3% 5%;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         @media ${device.tablet} {
             font-size: 1.6rem;
         }
