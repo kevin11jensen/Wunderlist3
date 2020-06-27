@@ -40,7 +40,7 @@ const AboutUs = styled.div `
             
         }
         h1 {
-            margin 4% 2% 0 2%;
+            margin 4% 2% 3% 0;
             color: #234099;
             text-align: left;
         }
