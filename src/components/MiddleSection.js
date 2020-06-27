@@ -37,7 +37,7 @@ const Middle = styled.section `
     flex-direction: column;
     align-items: center;
     img {
-        width: 45%;
+        width: 65%;
         
         box-shadow: 1rem 1rem 1rem #234099;
         @media ${device.tablet} {
@@ -46,11 +46,18 @@ const Middle = styled.section `
         }
     }
     .wunderlist-2, .wunderlist-4 {
-        
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0;
         @media ${device.tablet} {
             display: flex;
             flex-direction: column-reverse;
         }
+    }
+    .wunderlist-1, .wunderlist-3 {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 11%;
     }
     
     div {
@@ -67,7 +74,8 @@ const Middle = styled.section `
         }
         p {
             font-size: 2rem;
-            
+            width: 75%;
+            margin: 3%;
             @media ${device.tablet} {
                 text-align: center;
                 font-size: 1.6rem;
